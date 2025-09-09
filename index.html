@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ডাকসু নির্বাচনের ফল</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom Keyframes for the title animation */
+        @keyframes lights {
+            0% {
+                color: hsl(230, 40%, 80%);
+                text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.2), 0 0 0.125em hsla(320, 100%, 60%, 0.3), -1em -0.125em 0.5em hsla(40, 100%, 60%, 0), 1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+            }
+            30% {
+                color: hsl(230, 80%, 90%);
+                text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5), 0 0 0.125em hsla(320, 100%, 60%, 0.5), -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2), 0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+            }
+            40% {
+                color: hsl(230, 100%, 95%);
+                text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5), 0 0 0.125em hsla(320, 100%, 90%, 0.5), -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2), 0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+            }
+            70% {
+                color: hsl(230, 80%, 90%);
+                text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5), 0 0 0.125em hsla(320, 100%, 60%, 0.5), 0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2), -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+            }
+            100% {
+                color: hsl(230, 40%, 80%);
+                text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.2), 0 0 0.125em hsla(320, 100%, 60%, 0.3), 1em -0.125em 0.5em hsla(40, 100%, 60%, 0), -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+            }
+        }
+        .animate-lights {
+            animation: lights 5s 750ms linear infinite;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 font-sans text-gray-100 flex items-center justify-center min-h-screen p-4">
+    <div class="w-full max-w-7xl mx-auto rounded-xl shadow-2xl bg-gray-800 p-6 sm:p-8">
+        <!-- Title section -->
+        <div class="text-center bg-sky-800 rounded-lg shadow-lg mb-6 p-4 animate-lights">
+            <h1 class="text-2xl sm:text-4xl font-bold">ডাকসু নির্বাচনের ফল</h1>
+        </div>
+
+        <!-- Candidates Grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+
+            <!-- ছাত্রদল -->
+            <div class="flex flex-col rounded-lg overflow-hidden shadow-lg bg-[#e0ffff]">
+                <div class="bg-[#7a8cba] text-white text-center py-2 px-3 font-semibold rounded-t-lg">ছাত্রদল</div>
+                <div class="p-4 flex flex-col items-center">
+                    <img class="w-16 h-16 rounded-full object-cover mb-2" src="https://ncdn.ntvbd.com/sites/default/files/uploads/2025/09/08/bnp-vp.jpg" alt="আবিদুল ইসলাম">
+                    <div class="text-sm text-gray-800 text-center">
+                        <div class="font-medium">আবিদুল ইসলাম <span class="text-xs text-gray-600">(ভিপি)</span></div>
+                        <div class="mt-1 text-green-700 text-xs">
+                            <span class="font-medium">প্রাপ্ত ভোট:</span>
+                            <span class="font-bold text-base">---</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 flex flex-col items-center border-t border-gray-300">
+                    <img class="w-16 h-16 rounded-full object-cover mb-2" src="https://ncdn.ntvbd.com/sites/default/files/uploads/2025/09/08/bnp-gs.jpg" alt="তানভীর হামিম">
+                    <div class="text-sm text-gray-800 text-center">
+                        <div class="font-medium">তানভীর হামিম <span class="text-xs text-gray-600">(জিএস)</span></div>
+                        <div class="mt-1 text-green-700 text-xs">
+                            <span class="font-medium">প্রাপ্ত ভোট:</span>
+                            <span class="font-bold text-base">---</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ছাত্রশিবির -->
+            <div class="flex flex-col rounded-lg overflow-hidden shadow-lg bg-[#caffca]">
+                <div class="bg-[#7ba694] text-white text-center py-2 px-3 font-semibold rounded-t-lg">ছাত্রশিবির</div>
+                <div class="p-4 flex flex-col items-center">
+                    <img class="w-16 h-16 rounded-full object-cover mb-2" src="https://ncdn.ntvbd.com/sites/default/files/uploads/2025/09/08/shibir-vp.jpg" alt="সাদিক কায়েম">
+                    <div class="text-sm text-gray-800 text-center">
+                        <div class="font-medium">সাদিক কায়েম <span class="text-xs text-gray-600">(ভিপি)</span></div>
+                        <div class="mt-1 text-green-700 text-xs">
+                            <span class="font-medium">প্রাপ্ত ভোট:</span>
+                            <span class="font-bold text-base">---</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 flex flex-col items-center border-t border-gray-300">
+                    <img class="w-16 h-16 rounded-full object-cover mb-2" src="https://ncdn.ntvbd.com/sites/default/files/uploads/2025/09/08/shibir-gs.jpg" alt="এস এম ফরহাদ">
+                    <div class="text-sm text-gray-800 text-center">
+                        <div class="font-medium">এস এম ফরহাদ <span class="text-xs text-gray-600">(জিএস)</span></div>
+                        <div class="mt-1 text-green-700 text-xs">
+                            <span class="font-medium">প্রাপ্ত ভোট:</span>
+                            <span class="font-bold text-base">---</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- বৈষম্যবিরোধী সংসদ -->
+            <div class="flex flex-col rounded-lg overflow-hidden shadow-lg bg-[#afeeee]">
+                <div class="bg-[#50b4b4] text-white text-center py-2 px-3 font-semibold rounded-t-lg">বৈষম্যবিরোধী সংসদ</div>
+                <div class="p-4 flex flex-col items-center">
+                    <img class="w-16 h-16 rounded-full object-cover mb-2" src="https://ncdn.ntvbd.com/sites/default/files/uploads/2025/09/08/bb-vp.jpg" alt="আব্দুল কাদের">
+                    <div class="text-sm text-gray-800 text-center">
+                        <div class="font-medium">আব্দুল কাদের <span class="text-xs text-gray-600">(ভিপি)</span></div>
+                        <div class="mt-1 text-green-700 text-xs">
+                            <span class="font-medium">প্রাপ্ত ভোট:</span>
+                            <span class="font-bold text-base">---</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 flex flex-col items-center border-t border-gray-300">
+                    <img class="w-16 h-16 rounded-full object-cover mb-2" src="https://ncdn.ntvbd.com/sites/default/files/uploads/2025/09/08/bb-gs.jpg" alt="বাকের মজুমদার">
+                    <div class="text-sm text-gray-800 text-center">
+                        <div class="font-medium">বাকের মজুমদার <span class="text-xs text-gray-600">(জিএস)</span></div>
+                        <div class="mt-1 text-green-700 text-xs">
+                            <span class="font-medium">প্রাপ্ত ভোট:</span>
+                            <span class="font-bold text-base">---</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- স্বতন্ত্র শিক্ষার্থী ঐক্য -->
+            <div class="flex flex-col rounded-lg overflow-hidden shadow-lg bg-[#ffe4e1]">
+                <div class="bg-[#cd786e] text-white text-center py-2 px-3 font-semibold rounded-t-lg">স্বতন্ত্র শিক্ষার্থী ঐক্য</div>
+                <div class="p-4 flex flex-col items-center">
+                    <img class="w-16 h-16 rounded-full object-cover mb-2" src="https://ncdn.ntvbd.com/sites/default/files/uploads/2025/09/08/sso-vp.jpg" alt="উমামা ফাতেমা">
+                    <div class="text-sm text-gray-800 text-center">
+                        <div class="font-medium">উমামা ফাতেমা <span class="text-xs text-gray-600">(ভিপি)</span></div>
+                        <div class="mt-1 text-green-700 text-xs">
+                            <span class="font-medium">প্রাপ্ত ভোট:</span>
+                            <span class="font-bold text-base">---</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 flex flex-col items-center border-t border-gray-300">
+                    <img class="w-16 h-16 rounded-full object-cover mb-2" src="https://ncdn.ntvbd.com/sites/default/files/uploads/2025/09/08/sso-gs.jpg" alt="সাদী ভুঁইয়া">
+                    <div class="text-sm text-gray-800 text-center">
+                        <div class="font-medium">সাদী ভুঁইয়া <span class="text-xs text-gray-600">(জিএস)</span></div>
+                        <div class="mt-1 text-green-700 text-xs">
+                            <span class="font-medium">প্রাপ্ত ভোট:</span>
+                            <span class="font-bold text-base">---</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- প্রতিরোধ পর্ষদ -->
+            <div class="flex flex-col rounded-lg overflow-hidden shadow-lg bg-[#d8bfd8]">
+                <div class="bg-[#947aaf] text-white text-center py-2 px-3 font-semibold rounded-t-lg">প্রতিরোধ পর্ষদ</div>
+                <div class="p-4 flex flex-col items-center">
+                    <img class="w-16 h-16 rounded-full object-cover mb-2" src="https://ncdn.ntvbd.com/sites/default/files/uploads/2025/09/08/pro-vp.jpg" alt="তাসনিম ইমি">
+                    <div class="text-sm text-gray-800 text-center">
+                        <div class="font-medium">তাসনিম ইমি <span class="text-xs text-gray-600">(ভিপি)</span></div>
+                        <div class="mt-1 text-green-700 text-xs">
+                            <span class="font-medium">প্রাপ্ত ভোট:</span>
+                            <span class="font-bold text-base">---</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 flex flex-col items-center border-t border-gray-300">
+                    <img class="w-16 h-16 rounded-full object-cover mb-2" src="https://ncdn.ntvbd.com/sites/default/files/uploads/2025/09/08/pro-gs.jpg" alt="মেঘমল্লার বসু">
+                    <div class="text-sm text-gray-800 text-center">
+                        <div class="font-medium">মেঘমল্লার বসু <span class="text-xs text-gray-600">(জিএস)</span></div>
+                        <div class="mt-1 text-green-700 text-xs">
+                            <span class="font-medium">প্রাপ্ত ভোট:</span>
+                            <span class="font-bold text-base">---</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- স্বতন্ত্র -->
+            <div class="flex flex-col rounded-lg overflow-hidden shadow-lg bg-[#fffacd]">
+                <div class="bg-[#ddb164] text-white text-center py-2 px-3 font-semibold rounded-t-lg">স্বতন্ত্র</div>
+                <div class="p-4 flex flex-col items-center">
+                    <img class="w-16 h-16 rounded-full object-cover mb-2" src="https://ncdn.ntvbd.com/sites/default/files/uploads/2025/09/08/self-vp.jpg" alt="শামীম হোসেন">
+                    <div class="text-sm text-gray-800 text-center">
+                        <div class="font-medium">শামীম হোসেন <span class="text-xs text-gray-600">(ভিপি)</span></div>
+                        <div class="mt-1 text-green-700 text-xs">
+                            <span class="font-medium">প্রাপ্ত ভোট:</span>
+                            <span class="font-bold text-base">---</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 flex flex-col items-center border-t border-gray-300">
+                    <img class="w-16 h-16 rounded-full object-cover mb-2" src="https://ncdn.ntvbd.com/sites/default/files/uploads/2025/09/08/selp-gs.jpg" alt="আরাফাত চৌধুরী">
+                    <div class="text-sm text-gray-800 text-center">
+                        <div class="font-medium">আরাফাত চৌধুরী <span class="text-xs text-gray-600">(জিএস)</span></div>
+                        <div class="mt-1 text-green-700 text-xs">
+                            <span class="font-medium">প্রাপ্ত ভোট:</span>
+                            <span class="font-bold text-base">---</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
